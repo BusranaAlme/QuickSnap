@@ -52,6 +52,10 @@ namespace CardGames.GameLogic
 			}
 		}
 
+        // I changed something on that 
+		//also the changes are just for learning its not something so vital
+		//thats why i chose to make changes on the comments , obvousluy not the code itself
+
 		/// <summary>
 		/// Indicates if there are cards remaining in the Snap game's Deck.
 		/// The game is over when there are no cards remaining.
@@ -61,6 +65,7 @@ namespace CardGames.GameLogic
 		{
 			get { return _deck.CardsRemaining > 0; }
 		}
+		
 
 		/// <summary>
 		/// Determines how many milliseconds need to pass before a new card is drawn
